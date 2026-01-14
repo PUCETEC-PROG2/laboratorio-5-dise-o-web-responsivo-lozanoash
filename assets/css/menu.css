@@ -12,10 +12,11 @@ body{
 
 .navbar {
     position: sticky;
-    box-shadow: 0 15px 15px  rgba(240, 223, 71, 0.979);
+    box-shadow: 0 15px 15px  rgba(247, 230, 77, 0.979);
     background-color: rgb(128, 136, 175);
     top: 0;
     z-index: 10000;
+    color: antiquewhite;
 }
 
 .nav-container {
@@ -48,6 +49,7 @@ body{
     font-weight: 300;
     padding: 8px 16px;
     border-radius: 10px;
+    
 }
 .nav-link:hover {
     background-color: rgb(66, 91, 231);
