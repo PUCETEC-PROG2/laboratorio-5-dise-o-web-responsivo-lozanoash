@@ -12,8 +12,8 @@ body{
 
 .navbar {
     position: sticky;
-    box-shadow: 0 15px 15px  rgba(247, 230, 77, 0.979);
-    background-color: rgb(128, 136, 175);
+    box-shadow: 0 15px 15px  rgba(96, 228, 228, 0.979);
+    background-color: rgba(64, 135, 175, 0.952);
     top: 0;
     z-index: 10000;
     color: antiquewhite;
@@ -32,6 +32,7 @@ body{
 .nav-logo img {
     width: 200px;
     height: auto;
+    
     
 }
 
