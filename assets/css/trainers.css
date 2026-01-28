@@ -1,0 +1,203 @@
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 32px;
+}
+
+.trainers-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px;
+    justify-content: center;
+    padding: 16px;
+
+}
+
+.trainer-card {
+
+    background-color: #cecdcaf2;
+    color: #050505;
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 24px;
+    box-shadow: 0 4px 8px rgba(170, 169, 167, 0.849);
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    flex: 1 1 calc(33.3333% - 32px);
+    max-width: calc(33.3333% -32px);
+    min-width: 300px;
+}
+
+.trainer-card:hover {
+    color: #ffffffdd;
+    transform: translateY(-8px);
+    box-shadow: 0 8px 16px;
+    transition: all 0.3s ease-in-out;
+}
+
+.bg-ash {
+    width: 100%;
+    height: 250px;
+    background-image: url('../img/ashbg.png');
+    background-size: cover;
+    background-position: center;
+    border: 4px solid rgba(239, 212, 77, 0.4);
+}
+
+.bg-Misty {
+    width: 100%;
+    height: 250px;
+    background-image: url('../img/mistybg.png');
+    background-size: cover;
+    background-position: center;
+    border: 4px solid rgba(239, 212, 77, 0.4);
+}
+
+.bg-Brock {
+    width: 100%;
+    height: 250px;
+    background-image: url('../img/brockbg.png');
+    background-size: cover;
+    background-position: center;
+    border: 4px solid rgba(239, 212, 77, 0.4);
+}
+
+.bg-Gary {
+    width: 100%;
+    height: 250px;
+    background-image: url('../img/garybg.png');
+    background-size: cover;
+    background-position: center;
+    border: 4px solid rgba(239, 212, 77, 0.4);
+}
+
+.bg-May {
+    width: 100%;
+    height: 250px;
+    background-image: url('../img/maybg.png');
+    background-size: cover;
+    background-position: 20% 90%;
+    border: 4px solid rgba(239, 212, 77, 0.4);
+}
+
+.bg-Serena {
+    width: 100%;
+    height: 250px;
+    background-image: url('../img/serenabg.png');
+    background-size: cover;
+    background-position: 20% 90%;
+    border: 4px solid rgba(239, 212, 77, 0.4);
+}
+
+.bg-Cynthia {
+    width: 100%;
+    height: 250px;
+    background-image: url('../img/cynthibg.png');
+    background-size: cover;
+    background-position: center;
+    border: 4px solid rgba(239, 212, 77, 0.4);
+}
+
+.bg-Lance {
+    width: 100%;
+    height: 250px;
+    background-image: url('../img/lancebg.png');
+    background-size: cover;
+    background-position: center;
+    border: 4px solid rgba(239, 212, 77, 0.4);
+}
+
+.bg-Iris {
+    width: 100%;
+    height: 250px;
+    background-image: url('../img/irisbg.png');
+    background-size: cover;
+    background-position: 20% 90%;
+    border: 4px solid rgba(239, 212, 77, 0.4);
+}
+
+.trainer-image {
+    width: 100%;
+    height: 250px;
+    object-fit: contain;
+    border: 4px solid rgba(22, 1, 19, 0.4);
+}
+
+.trainer-info {
+    padding: 16px;
+    display: flex;
+    flex-direction: row;
+    gap: 16px;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.trainer-status {
+    background: linear-gradient(130deg,
+            #53efcb 0%,
+            #52c4c4 15%,
+            #0fa6c1 40%,
+            #165e84 70%,
+            #aedae5 100%);
+    box-shadow: 0 0px 10px rgba(0, 145, 255, 0.5);
+    border-radius: 8px;
+    /* Opcional */
+    color: white;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    padding: 8px 10px;
+    border-radius: 20px;
+    font-size: 12px;
+    font-weight: 500;
+    text-transform: uppercase;
+
+}
+
+.trainer-badges {
+    background: linear-gradient(130deg,
+            #ecd68b 0%,
+            #d8cd35 15%,
+            #e2e9a2 40%,
+            #f5e665 70%,
+            #524a0a 100%);
+    box-shadow: 0 0px 10px rgba(236, 235, 143, 0.5);
+    border-radius: 8px;
+    color: rgb(37, 37, 37);
+    text-shadow: 2px 2px 4px rgba(255, 240, 175, 0.5);
+    padding: 8px 10px;
+    border-radius: 20px;
+    font-size: 12px;
+    font-weight: 500;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.trainer-region {
+    background: linear-gradient(130deg,
+            #0f0f0f 0%,
+            #876b4e 15%,
+            #e3c4a0 40%,
+            #e0b378 70%,
+            #3b2c14 100%);
+    box-shadow: 0 0px 10px rgba(236, 235, 143, 0.5);
+    border-radius: 8px;
+    color: rgb(62, 65, 66);
+    text-shadow: 2px 2px 4px rgba(228, 227, 224, 0.92);
+    padding: 8px 10px;
+    border-radius: 20px;
+    font-size: 12px;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+@media screen and (max-widht: 768px) {
+    .trainers-gird {
+        width: 100%;
+        gap: 8px;
+
+    }
+
+    .nav-log img {
+        flex: 100%;
+        max-width: 100%;
+    }
+}
